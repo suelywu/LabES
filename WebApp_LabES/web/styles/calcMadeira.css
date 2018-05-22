@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+div .main-content {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+label,  input {
+  display: inline-block;
+	float: center;
+  width: 20%;
+  margin: 5px;
+}
+
+input {
+  color:gray;
+}
+
+.visivel {
+  dipslay: box;
+}
+
+.invisivel {
+  display: none;
+}
+
+button {
+  margin: 5px;
+}
+
+
+
+

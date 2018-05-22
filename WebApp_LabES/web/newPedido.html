@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Registrar Pedido</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/newPedido.css">
+    <script type="text/javascript" src="scripts/newPedido.js"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1> Pedido <span class="numero">X</span> </h1>
+      <form action="" name="form-registrar-pedido" method="" id="form-registrar-pedido">
+        <ul>
+          <li>
+            <label>Cliente:</label>
+            <input type="text"></input>      
+          </li>
+          <li>
+            <label>Tipo de produto:</label>
+            <input type="text"></input>
+          </li>
+          <li>
+            <label>Pagamento:</label>
+            <select id="sel-forma-pagamento">
+              <option value="dinheiro">Dinheiro</option>
+              <option value="cartao-de-credito">Cartão de Crédito</option>
+            </select>
+            <select id="sel-tipo-pagamento">
+              <option value="a-vista">À vista</option>
+              <option value="parcelado">Parcelado</option>
+            </select>
+            <span id="span-parcelado"><input type="number" id="inp-qtd-parcelas"></input><label>vezes</label></span>
+          </li>
+          <li>
+            <label>Orçamento:</label>
+            <select>
+              <option></option>
+              <option value="orcamento1">Orçamento 1</option>
+              <option></option>
+            </select>
+          </li>
+          <li>
+            <label>Valor:</label>
+            <label id="lbl-valor">R$ 00,00</label>
+          </li>
+          <li>
+            <label>Desconto:</label>
+            <label id="lbl-desconto">R$ 00,00</label>
+          </li>
+          <li>
+            <label>Total:</label><label>R$ 00,00</label>
+          </li>
+          <li>
+            <button type="button" id="btn-registrar">Registrar</button>
+            <button type="button" id="btn-cancelar">Cancelar</button>
+          </li>
+
+        </ul>
+      </form> 
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+﻿@font-face {
+  font-family: Sketch;
+  src: url('fonts/Sketch.ttf')
+        format('truetype');
+}
+
+@font-face {
+  font-family: better-phoenix;
+  src: url('fonts/better_phoenix_sample.otf')
+        format('opentype');
+  src: url('fonts/better_phoenix_sample.ttf')
+        format('truetype');
+}
+
+html, body {
+    height: 100%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+/*
+.login-container {
+  display: table-cell;
+  vertical-align: middle;
+}*/
+
+fieldset {
+  width: 70%;
+  margin: auto;
+}
+
+label {
+  display: inline-block;
+  width: 10%;
+  margin: 10px;
+}
+input {
+  display: inline-block;
+  color: gray;
+  width: 30%;
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+h1 {
+  font-family: better-phoenix;
+  font-size: 300%;
+}
+
+
